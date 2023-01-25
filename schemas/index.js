@@ -1,6 +1,7 @@
-import dish from "./dish"
-import restaurant from "./restaurant"
-import featuredMenuCategory from "./featuredMenuCategory"
-import menuCategory from "./menuCategory"
+import patient from "./patient"
+import patientType from "./patientType"
+import gender from "./gender"
+import user from "./user"
 
-export const schemaTypes = [dish, restaurant, featuredMenuCategory, menuCategory]
+
+export const schemaTypes = [patient, patientType, gender, user]
